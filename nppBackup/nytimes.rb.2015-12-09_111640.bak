@@ -1,0 +1,16 @@
+require 'rubygems' => true
+require 'net/http'
+require 'json'
+
+file = file.open('apiKeys.json')
+jsonHash = JSON.parse(file)
+
+puts json 
+
+puts "hello" 
+# uri = URI.parse("http://api.nytimes.com/svc/news/3/content)
+# response = Net::HTTP.post_form(uri
+
+
+
+file.close
